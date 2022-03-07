@@ -1,0 +1,167 @@
+/* Category Page Styling */
+.main_cate{
+  background-color: white;
+  width: 100%;
+  margin-right: 1.4rem;
+  padding-left: 1.4rem;
+}
+.cate_name{
+  margin-left: 8px;
+  font-size: 12px;
+}
+.cate_item{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+.cateHead{
+  padding: 1rem 0 1rem 1rem;
+}
+.icons_image{
+  width: 30px;
+  margin-bottom: 0.7rem;
+  
+}
+/* Slider Page Styling */
+.main_slide_cate{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background-color: #F8F8F8;
+  margin-bottom: 3rem;
+}
+.slider_div{
+  width: 60%;
+}
+
+
+/*Card Page Styling */
+.main_cards{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.inner_cards1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 18px;
+  justify-content: flex-start;
+}
+.inner_cards3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 18px;
+  justify-content: flex-end;
+}
+.card{
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+.card_head{
+  margin-left: 21px;
+  /* text-align: center; */
+  /* margin-bottom: 1rem; */
+}
+.view_text{
+  margin: 0.5rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+/* SlickProducts Page Styling */
+.slick-prev{
+  z-index: 100;
+  left: 20px !important;
+  color: black;
+}
+
+.slick-next{
+  z-index: 100;
+  right: 20px !important;
+  color: black !important;
+}
+
+.image{
+  height: 250px;
+  width: 300px;
+  border-radius: 2px ;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.main_div{
+margin: 2rem 0 2rem 0;
+}
+.slide_head{
+  margin-left: 19px;
+}
+.model{
+  margin-left: 19px;
+}
+.price{
+  margin-left: 19px;
+}
+
+
+/* CardsCategory Page Styling */
+.cates{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F9DCD9;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.local_img{
+  width: 350px;
+  height: 150px;
+  object-fit: contain;
+}
+.inner_category{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  justify-content: space-around;
+}
+.local_head{
+  margin-left: 19px;
+}
+.main_category{
+  margin: 2rem 0 3rem 0;
+}
+
+
+/* Payment Page Styling */
+
+.paymants_image{
+  width: 100px;
+}
+.payment_icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.paymants_image0{
+  width: 175px;
+}
+.paymants_image3 ,.paymants_image2 ,.paymants_image5{
+  width: 130px;
+}
+/* footer Page Styling */
+footer{
+  background-color: #F9DCD9;
+  padding: 0.5rem;
+}
+footer p{
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
