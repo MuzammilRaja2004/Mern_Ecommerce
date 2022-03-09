@@ -10,7 +10,7 @@ const Card = () => {
           {cardData1.map((item, index) => {
             return (
               <>
-                <div className="card" style={{ width: "11rem" }}>
+                <div className={`card card_one same_work${index}`}>
                   <img src={item.img} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <p className="card-text">{item.details}</p>
@@ -28,7 +28,7 @@ const Card = () => {
         <div className="inner_card2">
           {cardBig.map((item, index) => {
             return (
-              <div className="card" style={{ width: "25rem" }}>
+              <div className="card card_two" style={{ width: "25rem" }}>
                 <img
                   src={item.img}
                   className="card-img-top"
@@ -47,11 +47,11 @@ const Card = () => {
           })}
         </div>
 
-        <div className="inner_cards3">
+        <div className="inner_cards3 ">
           {cardData2.map((item, index) => {
             return (
               <>
-                <div className="card" style={{ width: "11rem" }}>
+                <div className={`card card_one same_work${index}`} >
                   <img
                     src={item.img}
                     className="card-img-top"
